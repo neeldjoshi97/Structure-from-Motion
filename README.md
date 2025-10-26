@@ -4,13 +4,13 @@ This minimalistic package (`qdfm`) was written as part of course project for Com
 
 ## Table of Contents
 
-- [Overview](overview)
-- [Installation](installation)
-- [Quick Start](quick-start)
-- [Module Structure](module-structure)
-- [Evaluation](Evaluation)
-- [References](references)
-- [License](license)
+- [Overview](#overview)
+- [Installation](#installation)
+- [Quick Start](#quick-start)
+- [Module Structure](#module-structure)
+- [Evaluation](#evaluation)
+- [References](#references)
+- [License](#license)
 
 ## Overview
 
