@@ -14,7 +14,7 @@ This minimalistic package (`qdfm`) was written as part of course project for Com
 
 ## Overview
 
-### Motivation [\[1\]](references)
+### Motivation [\[1\]](#references)
 **Structure from Motion** (SfM) and **visual Simultaneous Localisation and Mapping** (vSLAM) are main techniques that are used to create 3D maps of robot surroundings and track camera positions in large spaces. However, these maps are often too sparse (less rich in features) to show all the details of the environment.
 
 Using dense 3D modeling helps us understand scenes better and is useful in many fields like augmented reality, arts, self-driving cars, etc.
@@ -26,7 +26,7 @@ The key idea is:
 
 $1.$ The process begins by generating an initial set of matched feature points using SIFT or another robust algorithm. These matches are then passed into the $qdfm$ pipeline.
 
-$2.$ $qdfm$ treats these initial matches as a heap of seed points. It searches the surrounding regions in both images — within a window of size $n$ — to identify additional matches that meet the $ZNCC$ threshold criteria. Each newly found match is added to the heap and becomes a seed point itself, enabling further propagation. This iterative process is known as **Match Propagation** [\[2\]](references).
+$2.$ $qdfm$ treats these initial matches as a heap of seed points. It searches the surrounding regions in both images — within a window of size $n$ — to identify additional matches that meet the $ZNCC$ threshold criteria. Each newly found match is added to the heap and becomes a seed point itself, enabling further propagation. This iterative process is known as **Match Propagation** [\[2\]](#references).
 
 [!NOTE]
 `run_qdfm()` does all these steps for you in one function call (end-to-end pipeline).
@@ -81,9 +81,9 @@ If the threshold is raised to 0.99999, the algorithm becomes more selective and 
 
 **Further Improvements**
 
-$1.$ Algorithmic complexity can be optimsed through vectorisation [\[3\]](references), although it might prove to be a more detailed approach (for a course project).
+$1.$ Algorithmic complexity can be optimsed through vectorisation [\[3\]](#references), although it might prove to be a more detailed approach (for a course project).
 
-$2.$ Newer parameters can be sought that might not only be computationally suitable, but also result in more robust feature matching [\[4\]](references).
+$2.$ Newer parameters can be sought that might not only be computationally suitable, but also result in more robust feature matching [\[4\]](#references).
 
 ## References
 
