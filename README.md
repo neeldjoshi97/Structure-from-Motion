@@ -1,6 +1,6 @@
 # (*Quasi-*) Dense Feature Matching for Structure from Motion
 
-This minimalistic package (`qdfm`) was written as part of course project for Computer Vision for Engineers (CVE) taught by Prof. Kenji Shimada at [Carnegie Mellon University](https://www.cmu.edu).
+This minimalistic package (`qdfm`) was written as part of course project for Computer Vision for Engineers (CVE) taught by [Prof. Kenji Shimada](https://www.meche.engineering.cmu.edu/directory/bios/shimada-kenji.html) at [Carnegie Mellon University](https://www.cmu.edu).
 
 ## Table of Contents
 
