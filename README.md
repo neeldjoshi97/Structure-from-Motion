@@ -72,9 +72,10 @@ qdfm/
 ![results](qdfm_results.png)
 
 
-Matched points are shown as red dots. When the ZNCC threshold is set to 0.9999, the matching spreads quickly from the starting pair and connects many points, like a chain reaction.
+Matched points are shown as red dots.
 
-If the threshold is raised to 0.99999, the algorithm becomes more selective and only picks the strongest nearby points. This also makes it easier to see where the matching started (at the selected seed point pair taken from the output of the feature matching algorithm).
+- When the ZNCC threshold is set to 0.9999, the matching spreads quickly from the starting pair and connects many points, like a chain reaction.
+- If the threshold is raised to 0.99999, the algorithm becomes more selective and only picks the strongest nearby points. This also makes it easier to see where the matching started (at the selected seed point pair taken from the output of the feature matching algorithm).
 
 
 **Tip:** With $ZNCC$ threshold of $0.9999$, you can expect $qdfm$ to return **hundreds** of extra feature points __per initial seed point__ and can take several minutes to finish. Hence, the default is set to 0.99999.
