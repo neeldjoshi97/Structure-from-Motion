@@ -52,7 +52,7 @@ or use the `Python` builtin `help()` function
 help(run_qdfm)
 ```
 
-**\*** Please note that this (`qdfm`) is a purely first-principles implementation of the algorithm, for academic purposes. It is NOT optimised for speed/complexity. Current implementation has complexity around $O(n^4)$ where $n$ is the window size. It might take a few minutes to finish on standard images.
+> Please note that this (`qdfm`) is a purely first-principles implementation of the algorithm, for academic purposes. It is NOT optimised for speed/complexity. Current implementation has complexity around $O(n^4)$ where $n$ is the window size. It might take a few minutes to finish on standard images.
 
 
 ## Module Structure
